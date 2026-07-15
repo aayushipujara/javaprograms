@@ -9,6 +9,8 @@ import java.util.Scanner;
 			
 			System.out.println("Enter the string:");
 			String Userstr=scn.nextLine();
+			System.out.println("Enter the limit:");
+
 			int num=scn.nextInt();
 			scn.close();
 			
