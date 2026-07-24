@@ -1,6 +1,6 @@
 import java.util.Scanner;
 	
-	public class u1p10_9
+	public class u1p6_18
 	{
 		public static void main(String args[])
 		{
