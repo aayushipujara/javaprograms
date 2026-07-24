@@ -1,4 +1,4 @@
-public class u1p10_7 {
+public class u1p6_17 {
     public static void main(String args[])
 	{
         int n = 3; 
