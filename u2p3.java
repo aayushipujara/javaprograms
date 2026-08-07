@@ -19,7 +19,7 @@ class Cat extends Animal{
     }
 }
 
-public class u2p15{
+public class u2p3{
     public static void main(String args[]){
         Dog d = new Dog();
         Cat c = new Cat();
