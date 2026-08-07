@@ -16,7 +16,7 @@ class dog extends  animal
     }
 }
 
-public class u2p13
+public class u2p1
 {
     public static void main(String args[])
     {
