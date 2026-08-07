@@ -24,7 +24,7 @@ class puppy extends  dog
         System.out.println("Puppy is weeping.");
     }
 }
-public class u2p14
+public class u2p2
 {
     public static void main(String args[])
     {
