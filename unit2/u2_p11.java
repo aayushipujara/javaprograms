@@ -13,7 +13,7 @@ class Dog extends Animal
     }
 }
 
-public class U2_P11
+public class u2_p11
 {
     public static void main(String[] args)
     {
