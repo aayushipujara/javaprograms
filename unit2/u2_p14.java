@@ -24,7 +24,7 @@ class Dog implements Animal
 
     
 }
-public class U2_P14
+public class u2_p14
 {
     public static void main(String[] args) 
     {
