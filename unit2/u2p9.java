@@ -25,7 +25,7 @@ class puppy implements cat,dog{
 	 }
 }
 
-public class U2_P9{
+public class u2p9{
 	public static void main(String args[]){
 		puppy mypuppy = new puppy();
 		
