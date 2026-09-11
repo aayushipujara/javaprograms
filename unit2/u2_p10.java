@@ -1,5 +1,5 @@
 //Write a java program to demonstrate encapsulation.
-public class U2_P10{
+public class u2_p10{
 	private String name;
 	public String getName()
 	{
