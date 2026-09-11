@@ -32,7 +32,7 @@ class Puppy extends Dog implements PetAnimal
     }
     
 }
-public class U2_P12
+public class u2_p12
 {
     public static void main(String[] args)
      {
