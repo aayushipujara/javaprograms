@@ -11,7 +11,7 @@ class addition
 }
 
 
-public class U2_P15
+public class u2_p15
 {
         public static void main(String args[])
         {
