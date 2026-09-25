@@ -1,4 +1,4 @@
-import.java.lang.*;
+
 class a extends Thread
   {
     public void run()
