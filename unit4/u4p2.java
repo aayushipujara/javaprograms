@@ -1,4 +1,3 @@
-
 class a implements Runnable
   {
     public void run()
@@ -37,11 +36,8 @@ class u4p2
     public static void main(String args[])
     { 
       a a1=new a();
-      a1.start();
       b b1=new b();
-      b1.start();
       c c1=new c();
-      c1.start();
       Thread ta =new Thread(a1);
       System.out.println("Thread A started");
       ta.start();
@@ -53,4 +49,4 @@ class u4p2
       tc.start();
     }
   }
-      
+    
