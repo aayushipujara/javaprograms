@@ -1,6 +1,8 @@
-import java.sql.*;
-import java.util.*;
-class Insert
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.util.Scanner;
+class u5p1
 { 
     public static void main(String args[])
     {
@@ -10,12 +12,14 @@ class Insert
             Connection cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/javadb","root","");
             Statement stmt=cn.createStatement();
             Scanner sc=new Scanner(System.in);
-            int grno=0;
-            String name="";
-            System.out.println("Enter grno.");
+            int grno = 0;
+            String name;
+            System.out.print("Enter grno.");
             grno=sc.nextInt();
+            sc.nextLine();
             System.out.println("Enter name");
             name=sc.nextLine();
+            
             try
             {
                 int x=stmt.executeUpdate("insert into stud values("+grno+",'"+name+"')");
@@ -33,4 +37,3 @@ class Insert
         }
     }
 }
-
